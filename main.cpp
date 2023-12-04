@@ -1,14 +1,11 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
-
-// king was here
-
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+    int a = 1;
+    int b = 2;
+    int temp = a;
+    a = b;
+    b = temp;
+    std::cout << a;
     return 0;
 }
